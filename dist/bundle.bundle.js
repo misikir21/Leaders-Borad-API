@@ -6,7 +6,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-(self["webpackChunkto_do_list"] = self["webpackChunkto_do_list"] || []).push([["bundle"],{
+(self["webpackChunkledaers_board_api"] = self["webpackChunkledaers_board_api"] || []).push([["bundle"],{
 
 /***/ "./src/index.js":
 /*!**********************!*\
@@ -14,7 +14,7 @@
   \**********************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack://to-do-list/./src/index.js?");
+eval("\n\n//# sourceURL=webpack://ledaers-board-api/./src/index.js?");
 
 /***/ })
 
