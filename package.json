@@ -23,5 +23,10 @@
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0",
     "webpack": "^5.88.2"
+  },
+  "dependencies": {
+    "css-loader": "^6.8.1",
+    "sass-loader": "^13.3.2",
+    "webpack-cli": "^5.1.4"
   }
 }
