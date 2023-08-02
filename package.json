@@ -1,32 +1,36 @@
 {
-  "name": "leader-board-api",
+  "name": "to-do-list",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start": "webpack",
+    "start": "webpack serve --open",
+    "deploy": "gh-pages -d dist",
     "build": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "lodash": "^4.17.21",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2"
+  },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "css-loader": "^6.7.3",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.28.0",
-    "hint": "^5.4.1",
-    "html-webpack-plugin": "^5.5.3",
+    "eslint-plugin-import": "^2.27.5",
+    "hint": "^7.1.10",
+    "style-loader": "^3.3.2",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0",
-    "webpack": "^5.88.2"
-  },
-  "dependencies": {
-    "css-loader": "^6.8.1",
-    "sass-loader": "^13.3.2",
-    "webpack-cli": "^5.1.4"
+    "url-loader": "^4.1.1",
+    "webpack-dev-server": "^4.13.3"
   }
 }
