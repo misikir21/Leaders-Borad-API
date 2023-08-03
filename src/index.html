@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Leaderboard</title>
 </head>
+
 <body>
+    <h1 class="title">Leaderboard</h1>
     <main class="container">
-    
+        <div class="container">
+            <div class="display">
+                <div class="head">
+                    <h3 class="score">Recent scores</h3>
+                    <button class="refresh">Refresh</button>
+                </div>
+                <ul class="list">
+                </ul>
+            </div>
+            <div class="add">
+                <form id="js-form">
+                    <h3>Add your score</h3>
+                    <input type="text" placeholder="Your name" name="gymName" class="teamName"><br>
+                    <input type="text" placeholder="Your score" name="gymScore" class="teamScore"><br>
+                    <button class="submit">Submit</button>
+                </form>
+            </div>
+        </div>
     </main>
     <script src="./index.js"></script>
 </body>

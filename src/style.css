@@ -1,0 +1,73 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.submit,
+.refresh {
+  position: relative;
+  padding: 1rem 3.6rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 1.5rem;
+}
+
+.add {
+  position: relative;
+  top: 19rem;
+  left: 7rem;
+  font-size: 2.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 3rem;
+  top: 22rem;
+  position: relative;
+  left: 23rem;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  position: relative;
+  top: 12rem;
+  font-size: 1.8rem;
+}
+
+.score {
+  position: relative;
+  top: -1rem;
+}
+
+.list {
+  margin: 0;
+  border: 2px solid #75086c;
+  border-radius: 5px;
+  list-style-type: none;
+  padding-left: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  top: 15rem;
+}
