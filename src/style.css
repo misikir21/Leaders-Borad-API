@@ -71,18 +71,21 @@ body {
   position: relative;
   top: 15rem;
 }
+
 @media (min-width: 768px) {
-  .container{
+  .container {
     width: 92%;
   }
 
-  .container{
-    width: 92%;
+  @media (min-width: 768px) {
+    .container {
+      width: 92%;
+    }
   }
-}
 
-@media (max-width: 768px) {
-  body {
-    min-height: 95vh;
+  @media (max-width: 768px) {
+    body {
+      min-height: 95vh;
+    }
   }
 }
