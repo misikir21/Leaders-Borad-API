@@ -1,5 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,300;1,400;1,600;1,700&display=swap");
 html {
   font-size: 10px;
+}
+:root {
+  --primary-color-2: #e2f0f9;
+  --primary-color-1: #286fb4;
+  --accent-color: #b0dde4;
+  --neutral-color-1: #286fb4;
+  --neutral-color-2: #286fb4;
+  --white: #fff;
+  --red: red;
+  --font: "Poppins", sans-serif;
 }
 
 body {
@@ -53,6 +64,30 @@ body {
   top: 12rem;
   font-size: 1.8rem;
 }
+ul {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+  border: solid var(--accent-color);
+  border-radius: 5px;
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+li {
+  background: var(--white);
+  border-radius: 5px;
+  margin: 10px 10px 5px 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px var(--neutral-color-2);
+  transition: transform 1s, filter 0.5s ease-out;
+}
+
+li:hover {
+  transform: scale(1.03);
+}
 
 .score {
   position: relative;
@@ -77,15 +112,10 @@ body {
     width: 92%;
   }
 
-  @media (min-width: 768px) {
-    .container {
-      width: 92%;
-    }
-  }
 
-  @media (max-width: 768px) {
-    body {
-      min-height: 95vh;
-    }
+@media (max-width: 768px) {
+  body {
+    min-height: 95vh;
   }
+}
 }
