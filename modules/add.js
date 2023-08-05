@@ -4,8 +4,9 @@ const selector = new Selector();
 
 const addFunction = async (e) => {
   e.preventDefault();
-  const teamName = selector.get('.teamName').value;
-  const teamScore = selector.get('.teamScore').value;
+
+  const teamName = document.querySelector('.teamName').value;
+  const teamScore = document.querySelector('.teamScore').value;
 
   try {
     const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/', {
@@ -25,7 +26,8 @@ const addFunction = async (e) => {
     throw new Error(`ErrorMessage : ${error}`);
   }
 
-  selector.resetForm();
+
+  selector.jsForm.reset();
 };
 
 export default addFunction;
