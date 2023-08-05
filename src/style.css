@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,300;1,400;1,600;1,700&display=swap");
+
 html {
   font-size: 10px;
 }
+
 :root {
   --primary-color-2: #e2f0f9;
   --primary-color-1: #286fb4;
@@ -64,6 +66,7 @@ body {
   top: 12rem;
   font-size: 1.8rem;
 }
+
 ul {
   margin-top: 20px;
   padding-left: 0;
@@ -112,10 +115,9 @@ li:hover {
     width: 92%;
   }
 
-
-@media (max-width: 768px) {
-  body {
-    min-height: 95vh;
+  @media (max-width: 768px) {
+    body {
+      min-height: 95vh;
+    }
   }
-}
 }
